@@ -1,0 +1,51 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# large data files
+*.csv
+IMDB*.csv
+*.tsv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PyTorch / Model cache
+*.pt
+*.pth
+models/
+checkpoints/
+
+# Output files
+*.out
+experiment_comparison.csv
+output/
+results/
+
+# Environment
+.env
+.env.local
