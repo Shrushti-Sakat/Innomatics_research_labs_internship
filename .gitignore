@@ -1,22 +1,25 @@
 # Virtual Environment
 .venv/
 venv/
-ENV/
 env/
 
-# Large Data Files
+# Data files (large)
+IMDB Dataset.csv
 *.csv
-IMDB*.csv
 
-# Python
+# Python cache
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-*.egg-info/
-dist/
-build/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
 
 # IDE
 .vscode/
@@ -24,15 +27,5 @@ build/
 *.swp
 *.swo
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb_checkpoints
-
-# Temporary files
-*.log
-*.tmp
-experiment_comparison.csv
+# Misc
+print_cell.py
