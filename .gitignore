@@ -1,8 +1,12 @@
 # Virtual Environment
 .venv/
 venv/
-env/
 ENV/
+env/
+
+# Large Data Files
+*.csv
+IMDB*.csv
 
 # Python
 __pycache__/
@@ -14,38 +18,21 @@ __pycache__/
 dist/
 build/
 
-# Jupyter Notebook
-.ipynb_checkpoints/
-*.ipynb_checkpoints
-
-# large data files
-*.csv
-IMDB*.csv
-*.tsv
-
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
 
 # OS
 .DS_Store
 Thumbs.db
 
-# PyTorch / Model cache
-*.pt
-*.pth
-models/
-checkpoints/
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
 
-# Output files
-*.out
+# Temporary files
+*.log
+*.tmp
 experiment_comparison.csv
-output/
-results/
-
-# Environment
-.env
-.env.local
